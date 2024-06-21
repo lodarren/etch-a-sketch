@@ -35,8 +35,8 @@ function boardsetup(boxes) {
         document.getElementById("board").appendChild(row);
     }
 
-    document.getElementById("board").style.width = `${20 * boxes + 0.8 * boxes}px`;
-    document.getElementById("board").style.height = `${20 * boxes + 0.8 * boxes}px`;
+    document.getElementById("board").style.width = `${20 * boxes + 2 * 0.8 * boxes}px`;
+    document.getElementById("board").style.height = `${20 * boxes + 2 * 0.8 * boxes}px`;
     document.getElementById("reset").addEventListener("click", resetFunction);
 
 }
